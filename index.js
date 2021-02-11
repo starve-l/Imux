@@ -13,7 +13,6 @@ client.on("ready", () => {
     client.user.setActivity(`You`, {
     type: "WATCHING",
     });
-    let presence = new Discord.ClientPresence(client, )
 });
 
 client.on("message", message => {

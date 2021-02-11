@@ -16,6 +16,7 @@ client.on("ready", () => {
 });
 
 client.on("message", message => {
-
-
+    message.channel.send("E");
 });
+
+client.login(config.token);
